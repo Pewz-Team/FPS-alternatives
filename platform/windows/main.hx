@@ -1,14 +1,14 @@
 package;
 
-import haxe.fps.loader
-import game.fps
+import haxe.fpsloader
+import haxe.gamefps
 
   run: "apis/FPSLoader.hx"
 
   #if win10+
   run: "apis/FPSLoader.hx"
-  delete: (C:Users/$windows-user/$application-run="app-name"$checkdirectory/fps.xml)
-  replace with: ($fps-name).xml
+  run-command: delete C:Users/$windows-user/$running-app=$app-name$check-directory/fps.xml
+               create C:Users/$windows-user/$running-app=$app-name$check-directory/$fps-name.xml
   #end
 
   #if win8-
