@@ -5,4 +5,4 @@ replace with: ($fps-name).xml
 #end
 
 #if win8-
-run-message= "We do not support any Windows 8- We only supported win10+
+run-message= "We do not support any Windows 8- We only supported win10+"
