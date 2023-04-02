@@ -1,5 +1,5 @@
 - win10+
-auto-run: "fps-alt.net"
+run: "apis/FPSLoader.hx"
 delete: (C:Users/$windows-user/$application-run="app-name"$checkdirectory/fps.xml)
 replace with: ($fps-name).xml
 #end
