@@ -19,7 +19,6 @@ There are 12 FPS type you can use
 - [TripleX FPS](https://youtube.com/watch/dQw4w9WgXcQ)
 
 NOTICE:
-- *We are not support other Platform except Windows*
 - FPS alternatives can be used if the game's fps is 20 below, if you use fps alternatives on 21+ fps, it may crashes
 - Does not work in windows 8-
 
