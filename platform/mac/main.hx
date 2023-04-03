@@ -9,5 +9,5 @@ run-command: $check-running-apps
              $delete fps.xml
              $create $fps-name.xml
 
-recreate $fps-name if "(reopen)"
-recreate $fps-name if "(close)"
+recreate $fps-name.xml if "(reopen)"
+recreate $fps-name.xml if "(close)"
