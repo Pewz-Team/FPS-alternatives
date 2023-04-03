@@ -20,7 +20,6 @@ There are 12 FPS type you can use
 
 NOTICE:
 - FPS alternatives can be used if the game's fps is 20 below, if you use fps alternatives on 21+ fps, it may crashes
-- Does not work in windows 8-
 
 ### Credits/shoutouts
 - [AlvarroPewz](https://youtube.com/watch/dQw4w9WgXcQ) - Main Coder
