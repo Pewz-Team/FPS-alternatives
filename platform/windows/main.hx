@@ -7,8 +7,8 @@ import haxe.gamefps;
 
   #if win10+
   run: "apis/FPSLoader.hx"
-  run-command: delete C:Users/$windows-user/$running-app=$app-name$check-directory/fps.xml
-               create C:Users/$windows-user/$running-app=$app-name$check-directory/$fps-name.xml
+  run-command: delete C:\$running-app=$app-name$check-directory\fps.xml
+               create C:\$running-app=$app-name$check-directory\$fps-name.xml
   #end
 
   #if win8-
